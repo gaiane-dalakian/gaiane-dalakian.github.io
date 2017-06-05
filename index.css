@@ -49,8 +49,9 @@ h1 {
 }
 
 .image {
-  margin:16px;
-  margin-bottom: 50px;
+  margin:16px auto;
+  margin-bottom: 56px;
+  max-width: 800px;
 }
 
 
