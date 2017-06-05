@@ -1,10 +1,85 @@
 body {
-  background: #000;
+  font-family: Georgia;
+  background: #000000;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 90px 0;
+  font-weight: normal;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+.thumbnail {
+  width: 250px;
+  height: 180px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+.thumbnails a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 36px;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.thumbnails .caption {
+  font-size: 24px;
+  margin: 12px;
 }
 
 
 .back-button {
   width: 30px;
   height: 30px;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  margin:16px;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 675px) {
+  .image {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .thumbnails a {
+    display: block;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin: 70px 0;
+  }
+}
+
+
+.image img {
+  max-height: 90vh;
+  max-width: 100%;
+}
+
+
+.caption {
+  margin: 8px;
+  font-size: 16px;
 }
