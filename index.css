@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia;
+  font-family: 'Cinzel', Georgia;
   background: #000000;
   color: #fff;
   margin: 0;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .thumbnails .caption {
-  font-size: 24px;
+  font-size: 19px;
   margin: 12px;
 }
 
