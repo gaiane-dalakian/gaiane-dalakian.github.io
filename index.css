@@ -27,7 +27,7 @@ h1 {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  margin: 36px;
+  margin: 51px;
   margin-top: 0;
   margin-bottom: 70px;
 }
@@ -62,7 +62,7 @@ h1 {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 675px) {
   .thumbnails a {
     display: block;
   }
