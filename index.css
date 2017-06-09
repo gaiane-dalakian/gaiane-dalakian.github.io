@@ -50,8 +50,8 @@ h1 {
 
 
 .back-button {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   color: #fff;
   padding: 20px;
   position: absolute;
@@ -63,13 +63,14 @@ h1 {
   margin:16px auto;
   margin-bottom: 56px;
   max-width: 118vh;
+  /* text-align: center; */
 }
 
 
 @media (max-width: 675px) {
   .image {
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 
